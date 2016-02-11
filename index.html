@@ -1,0 +1,39 @@
+<!doctype html>
+<head>
+  <script src="https://fb.me/react-0.14.7.js"></script>
+  <script src="https://fb.me/react-dom-0.14.7.js"></script>
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <style type="text/css">
+	.grid {
+		width: 100%;
+		margin: 100px;
+	}
+
+	.row {
+		display: block;
+		width: 100%;
+		clear: both;
+
+	}
+
+	.cell {
+		width: 30px;
+		height: 30px;
+		float: left;
+		margin: 3px;
+		padding: 30px;
+		border: 1px solid #ccc;
+	}
+  </style>
+</head>
+<body>
+  <div id="react">
+    Loading...
+  </div>
+  <script>
+	// load application from main.js
+    System.import('lib/main.js');
+  </script>
+</body>
+</html>
